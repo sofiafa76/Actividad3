@@ -48,7 +48,7 @@ public class adapter extends RecyclerView.Adapter<adapter.ViewHolder> {
             super(v);
             imagen=v.findViewById(R.id.imagen);
             link=v.findViewById(R.id.texto);
-            pb=v.findViewById(R.id.pb);
+
         }
         public void bind(Descarga descarga){
             imagen.setImageResource(descarga.getImagen());
